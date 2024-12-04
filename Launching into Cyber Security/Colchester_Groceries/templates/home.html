@@ -1,0 +1,11 @@
+<!-- This is a simple homepage for the Online Shopping System, only accessible when the user has successfuly verified -->
+{% extends 'layout.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h2>Home Page</h2>
+<p>Welcome back, {{ username }}!</p>
+<p>{{ inventory }}</p>
+           
+{% endblock %}
