@@ -219,5 +219,12 @@
   <script src="js/owl.carousel.min.js"></script> 
   <script src="js/jquery.countTo.js"></script> 
   <script src="js/main.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#accordionSRM .panel-collapse').on('show.bs.collapse', function() {
+      $('#accordionSRM .panel-collapse.in').not(this).collapse('hide');
+    });
+  });
+</script>
 </body>
 </html>
