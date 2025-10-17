@@ -96,6 +96,8 @@ figure {
     background: transparent; }
   #colorlib-aside::-webkit-scrollbar-thumb {
     background: transparent; }
+  #colorlib-aside {
+    background: #f9fafb !important; }
   @media screen and (max-width: 768px) {
     #colorlib-aside {
       width: 300px;
