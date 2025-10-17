@@ -76,7 +76,7 @@ figure {
   padding-top: 3em;
   padding-bottom: 40px;
   float: left;
-  width: 350px;
+  width: 300px;
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
@@ -147,7 +147,9 @@ figure {
           font-family: "Quicksand", Arial, sans-serif;
           -webkit-transition: 0.3s;
           -o-transition: 0.3s;
-          transition: 0.3s; }
+          transition: 0.3s;
+          white-space: nowrap;
+          font-size: 10px; }
           #colorlib-aside #colorlib-main-menu ul li a:after {
             content: "";
             position: absolute;
@@ -220,7 +222,7 @@ figure {
   margin: 0 auto; }
 
 #colorlib-main {
-  width: calc(100% - 350px);
+  width: calc(100% - 300px);
   float: right;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -350,17 +352,17 @@ body.offcanvas {
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
-    width: 350px;
+    width: 300px;
     background: #f2f3f7;
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     top: 0;
-    -moz-transform: translateX(350px);
-    -webkit-transform: translateX(350px);
-    -ms-transform: translateX(350px);
-    -o-transform: translateX(350px);
-    transform: translateX(350px); }
+    -moz-transform: translateX(300px);
+    -webkit-transform: translateX(300px);
+    -ms-transform: translateX(300px);
+    -o-transform: translateX(300px);
+    transform: translateX(300px); }
 
 .colorlib-narrow-content {
   padding: 0 2.5em; }
