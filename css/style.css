@@ -166,8 +166,7 @@ figure {
           transition: 0.2s ease;
           white-space: nowrap;
           font-size: 15px;
-          display: block;
-          text-align: center; }
+          display: block; }
           #colorlib-aside #colorlib-main-menu ul li a:after {
             display: none; }
           #colorlib-aside #colorlib-main-menu ul li a:hover {
