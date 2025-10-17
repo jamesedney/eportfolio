@@ -147,10 +147,15 @@ figure {
           font-family: "Quicksand", Arial, sans-serif;
           -webkit-transition: 0.3s;
           -o-transition: 0.3s;
-          transition: 0.3s;
+          transition: 0.3s; }
+        #colorlib-aside #colorlib-main-menu ul li a[data-nav-section="RMP"] {
           white-space: nowrap;
-          font-size: 10px;
-          letter-spacing: 0.5px; }
+          font-size: 9px;
+          letter-spacing: 0.3px;
+          display: block;
+          width: 100%;
+          overflow: hidden;
+          text-overflow: ellipsis; }
           #colorlib-aside #colorlib-main-menu ul li a:after {
             content: "";
             position: absolute;
