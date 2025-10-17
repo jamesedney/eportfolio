@@ -142,7 +142,7 @@ figure {
     #colorlib-aside #colorlib-main-menu .collapse {
       display: block !important; }
       #colorlib-aside #colorlib-main-menu ul {
-        text-align: center;
+        text-align: left;
         margin: 0;
         padding: 0; }
         @media screen and (max-width: 768px) {
@@ -166,7 +166,8 @@ figure {
           transition: 0.2s ease;
           white-space: nowrap;
           font-size: 15px;
-          display: block; }
+          display: block;
+          text-align: left; }
           #colorlib-aside #colorlib-main-menu ul li a:after {
             display: none; }
           #colorlib-aside #colorlib-main-menu ul li a:hover {
