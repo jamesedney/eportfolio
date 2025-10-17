@@ -350,17 +350,17 @@ body.offcanvas {
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
-    width: 300px;
+    width: 350px;
     background: #f2f3f7;
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     top: 0;
-    -moz-transform: translateX(300px);
-    -webkit-transform: translateX(300px);
-    -ms-transform: translateX(300px);
-    -o-transform: translateX(300px);
-    transform: translateX(300px); }
+    -moz-transform: translateX(350px);
+    -webkit-transform: translateX(350px);
+    -ms-transform: translateX(350px);
+    -o-transform: translateX(350px);
+    transform: translateX(350px); }
 
 .colorlib-narrow-content {
   padding: 0 2.5em; }
