@@ -142,7 +142,7 @@ figure {
     #colorlib-aside #colorlib-main-menu .collapse {
       display: block !important; }
       #colorlib-aside #colorlib-main-menu ul {
-        text-align: left;
+        text-align: center;
         margin: 0;
         padding: 0; }
         @media screen and (max-width: 768px) {
