@@ -147,7 +147,9 @@ figure {
           font-family: "Quicksand", Arial, sans-serif;
           -webkit-transition: 0.3s;
           -o-transition: 0.3s;
-          transition: 0.3s; }
+          transition: 0.3s;
+          white-space: nowrap;
+          font-size: 11px; }
           #colorlib-aside #colorlib-main-menu ul li a:after {
             content: "";
             position: absolute;
