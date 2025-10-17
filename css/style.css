@@ -76,7 +76,7 @@ figure {
   padding-top: 3em;
   padding-bottom: 40px;
   float: left;
-  width: 300px;
+  width: 350px;
   position: fixed;
   overflow-y: scroll;
   z-index: 1001;
@@ -148,14 +148,6 @@ figure {
           -webkit-transition: 0.3s;
           -o-transition: 0.3s;
           transition: 0.3s; }
-        #colorlib-aside #colorlib-main-menu ul li a[data-nav-section="RMP"] {
-          white-space: nowrap;
-          font-size: 9px;
-          letter-spacing: 0.3px;
-          display: block;
-          width: 100%;
-          overflow: hidden;
-          text-overflow: ellipsis; }
           #colorlib-aside #colorlib-main-menu ul li a:after {
             content: "";
             position: absolute;
@@ -228,7 +220,7 @@ figure {
   margin: 0 auto; }
 
 #colorlib-main {
-  width: calc(100% - 300px);
+  width: calc(100% - 350px);
   float: right;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
